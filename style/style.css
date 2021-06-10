@@ -1,0 +1,39 @@
+div{
+    width: 1000px;
+    height: 600px;
+    background-color: lightblue;
+    margin: 50px auto;
+    background-image: url(/images/backGround.png);
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+
+    
+}
+img{
+    size: 2 rem;
+}
+img{
+    
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+    
+}
+.red{
+    background-color: red;
+    border-radius: 50px;
+    transition-duration: "1s";
+    top : "100%";
+    left :"100%";
+    transition: "rotate(180deg)";
+    
+}
+.green{
+    background-color: green;
+    border-radius: 50px;
+}
